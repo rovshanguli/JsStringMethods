@@ -1,18 +1,18 @@
 //Task1
-function sortNumbers(arr){
-    arr.sort();
+/* function sortNumbers(arr) {
+    arr.sort((a, b) => a - b);
     arr.reverse();
     console.log(arr);
 }
 
-let nums = [1,21,0,17,29];
-sortNumbers(nums);
+let nums = [4, 1, 21, 0, 17, 29];
+sortNumbers(nums); */
 
 
 
 
 //Task2
-function months(arr) {
+/* function months(arr) {
     let newArr = [];
     for (const month of arr) {
         switch (month) {
@@ -57,9 +57,9 @@ function months(arr) {
     return newArr;
 }
 
-let monthArr = ["Yanvar","Noyabr","Oktyabr","Fevral"];
+let monthArr = ["Yanvar", "Noyabr", "Oktyabr", "Fevral"];
 console.log(months(monthArr));
-
+ */
 
 
 //Task3
