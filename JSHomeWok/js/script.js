@@ -1,7 +1,7 @@
 //Task1
 function sortNumbers(arr){
     arr.sort();
-    
+    arr.reverse();
     console.log(arr);
 }
 
