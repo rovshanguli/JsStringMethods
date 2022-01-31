@@ -1,18 +1,18 @@
 //Task1
-/* function sortNumbers(arr){
+function sortNumbers(arr){
     arr.sort();
-   arr.reverse();
+    
     console.log(arr);
 }
 
-let nums = [4,1,21,0,17,29];
-sortNumbers(nums); */
+let nums = [1,21,0,17,29];
+sortNumbers(nums);
 
 
 
 
 //Task2
-/* function months(arr) {
+function months(arr) {
     let newArr = [];
     for (const month of arr) {
         switch (month) {
@@ -58,12 +58,12 @@ sortNumbers(nums); */
 }
 
 let monthArr = ["Yanvar","Noyabr","Oktyabr","Fevral"];
-console.log(months(monthArr)); */
+console.log(months(monthArr));
 
 
 
 //Task3
-/* function lengthOfWords(sentence) {
+function lengthOfWords(sentence) {
     const words = sentence.split(' ');
     let lengthOfWord = [];
     for (const item of words) {
@@ -72,4 +72,4 @@ console.log(months(monthArr)); */
     return lengthOfWord;
 }
 
-console.log(lengthOfWords("Salam olsun hamiya")); */
+console.log(lengthOfWords("Salam olsun hamiya"));
